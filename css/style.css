@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2b2b2b;
+    background-color: #f4f8fb;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #5a2a2a;
+    line-height: 1.25;
+    margin: 0 0 16px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a {
+    color: #b83047;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2e7d7d;
+    text-decoration: underline;
+}
+
+a:focus-visible {
+    outline: 2px solid #0a7ea4;
+    outline-offset: 2px;
+}
+
+.site-nav ul {
+    margin: 8px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-nav li {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.site-nav a {
+    font-weight: 600;
+}
+
+.site-header {
+    display: block;
+    padding: 16px 12px;
+    background-color: #f4f8fb;
+    border-bottom: 1px solid #b0b8c0;
+}
+
+.hero {
+    padding: 3px;
+    background-color: #f7ecdc;
+    border-bottom: 1px solid #b0b8c0;
+}
+
+.hero-title {
+    font-size: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.hero > p:last-child {
+    text-align: center;
+}
+
+.hero figure {
+    margin: 24px auto;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: 1px solid #b0b8c0;
+}
+
+.hero figcaption {
+    color: #1f3a5f;
+    font-size: 14px;
+}
+
+.btn-cta {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 12px;
+    background-color: #a68a4e;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn-cta:hover {
+    background-color: #492972;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.proyek-unggulan {
+    margin: 24px 0;
+}
+
+.proyek-unggulan > h2 {
+    text-align: center;
+}
+
+.proyek-unggulan table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0 16px;
+    background-color: #ffffff;
+    border: 1px solid #d9e2ea;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.proyek-unggulan caption {
+    caption-side: top;
+    text-align: center;
+    color: #555555;
+    padding: 8px 0;
+}
+
+.proyek-unggulan th,
+.proyek-unggulan td {
+    padding: 12px 16px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #d9e2ea;
+}
+
+.proyek-unggulan thead th {
+    background-color: #f7ecdc;
+    color: #5a2a2a;
+    font-weight: 700;
+}
+
+.proyek-unggulan tbody tr:nth-child(even) {
+    background-color: #f4f8fb;
+}
+
+.proyek-unggulan tbody tr:hover {
+    background-color: #eef6f6;
+}
+
+.proyek-unggulan tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.keahlian {
+    margin: 24px 0;
+}
+
+.kontak {
+    margin: 24px 0;
+}
+
+.site-footer {
+    padding: 24px;
+    background-color: #3a2a16;
+    color: #f7ecdc;
+    text-align: center;
+}
+
+.site-footer a {
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .proyek-unggulan th,
+    .proyek-unggulan td {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+}
